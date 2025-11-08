@@ -4,6 +4,8 @@ import { GreetA, GreetB } from './components/2DefaultProps'
 import { Panel, RequiredChildrenPanel } from './components/3ChildrenReactNode'
 import { Badge } from './components/4AsConstVar'
 import { Button } from './components/5ComponentProps'
+import { Counter } from './components/6State'
+import { FormExample } from './components/7EventsBasics'
 
 function App() {
  
@@ -29,6 +31,8 @@ function App() {
 
 
       <Button variant='primary'/>
+      <Counter/>
+      <FormExample/>
     </>
   )
 }
