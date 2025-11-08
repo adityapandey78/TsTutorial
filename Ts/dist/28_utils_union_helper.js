@@ -10,5 +10,10 @@ function performActionN1(action) {
 }
 handleEvenet('scroll');
 performActionN1('update');
+function processNumberN1(value) {
+    console.log(`Processing number: ${value}`);
+}
+processNumberN1(42);
 export {};
-// performActionN1('read'); // Error
+// processNumberN1(null); // Error
+// processNumberN1(undefined); // Error
